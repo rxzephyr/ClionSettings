@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="QtDesigner" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\msys64\mingw64\bin\designer.exe" />
+      <option name="PARAMETERS" value="$FileName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$ " />
+    </exec>
+  </tool>
+  <tool name="uic" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\msys64\mingw64\bin\uic.exe" />
+      <option name="PARAMETERS" value="$FileName$ -o ui_$FileNameWithoutExtension$.h" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

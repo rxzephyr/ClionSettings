@@ -1,0 +1,8 @@
+<templateSet group="C/C++">
+  <template name="iter" value="for ($AUTO_TYPE$ $VAR$:$CONTAINER$) {&#10;  $END$&#10;}" description="Iterate range (C++11)" toReformat="true" toShortenFQNames="true">
+    <variable name="CONTAINER" expression="variableForIteration()" defaultValue="x" alwaysStopAt="true" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="item" alwaysStopAt="true" />
+    <variable name="AUTO_TYPE" expression="autoTypeForRangedForLoop()" defaultValue="auto" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

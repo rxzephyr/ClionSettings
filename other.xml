@@ -1,0 +1,29 @@
+<application>
+  <component name="CPPToolchains" version="2">
+    <toolchains detectedVersion="5">
+      <toolchain name="MSYS-Clang" toolSetKind="MINGW" toolSetPath="C:\msys64\mingw64" customMakePath="C:\msys64\mingw64\bin\mingw32-make.exe" customCCompilerPath="C:\msys64\mingw64\bin\clang.exe" customCXXCompilerPath="C:\msys64\mingw64\bin\clang++.exe" debuggerKind="CUSTOM_GDB" customGDBPath="C:\msys64\mingw64\bin\gdb.exe" />
+      <toolchain name="WSL" toolSetKind="WSL" toolSetPath="C:\Users\shsxssp72\AppData\Local\Microsoft\WindowsApps\ubuntu.exe" customCMakePath="\usr\bin\cmake" customMakePath="/usr/bin/make" customCCompilerPath="/usr/bin/clang-5.0" customCXXCompilerPath="/usr/bin/clang++-5.0" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb">
+        <remoteCredentials HOST="127.0.0.1" PORT="2222" USERNAME="root" PRIVATE_KEY_FILE="" USE_KEY_PAIR="false" USE_AUTH_AGENT="false" />
+      </toolchain>
+      <toolchain name="MSYS-MinGW-W64" toolSetKind="MINGW" toolSetPath="C:\msys64\mingw64" customMakePath="C:\msys64\mingw64\bin\mingw32-make.exe" customCCompilerPath="C:\msys64\mingw64\bin\gcc.exe" customCXXCompilerPath="C:\msys64\mingw64\bin\g++.exe" debuggerKind="CUSTOM_GDB" customGDBPath="C:\msys64\mingw64\bin\gdb.exe" />
+      <toolchain name="WSL-MPI" toolSetKind="WSL" toolSetPath="C:\Users\shsxssp72\AppData\Local\Microsoft\WindowsApps\ubuntu.exe" customCMakePath="\usr\bin\cmake" customMakePath="/usr/bin/make" customCCompilerPath="/usr/bin/mpicc" customCXXCompilerPath="/usr/bin/mpic++" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb">
+        <remoteCredentials HOST="localhost" PORT="2222" USERNAME="root" PRIVATE_KEY_FILE="" USE_KEY_PAIR="false" USE_AUTH_AGENT="false" />
+      </toolchain>
+    </toolchains>
+  </component>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:V:/C++_CodeStyle.xml" />
+  </component>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="C:\Program Files\Python36\python.exe" value="false" />
+      </map>
+    </option>
+  </component>
+</application>
