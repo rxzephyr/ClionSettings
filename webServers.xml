@@ -1,0 +1,11 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3e5237a1-cace-4d32-94fc-e75c9a55466b" name="Raspberry (3e5237a1-cace-4d32-94fc-e75c9a55466b)" url="http:///">
+        <fileTransfer host="192.168.50.108" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
